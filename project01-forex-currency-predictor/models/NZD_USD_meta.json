@@ -1,0 +1,32 @@
+{
+  "currency": "NZD/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.0017171351743333137,
+    "RMSE": 0.0022821537751032263,
+    "MAPE": 0.11075555607407131
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "NZD/USD_lag_1",
+    "NZD/USD_lag_2",
+    "NZD/USD_lag_3",
+    "NZD/USD_lag_5",
+    "NZD/USD_lag_7",
+    "NZD/USD_lag_14",
+    "NZD/USD_roll_mean_7",
+    "NZD/USD_roll_std_7",
+    "NZD/USD_ret_1",
+    "NZD/USD_ret_3",
+    "NZD/USD_ret_7",
+    "NZD/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

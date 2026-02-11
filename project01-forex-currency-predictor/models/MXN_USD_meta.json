@@ -1,0 +1,32 @@
+{
+  "currency": "MXN/USD",
+  "best_model": "XGBOOST",
+  "metrics": {
+    "model": "XGBOOST",
+    "MAE": 0.016826581370035853,
+    "RMSE": 0.02220735234814505,
+    "MAPE": 0.08756913940780263
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "MXN/USD_lag_1",
+    "MXN/USD_lag_2",
+    "MXN/USD_lag_3",
+    "MXN/USD_lag_5",
+    "MXN/USD_lag_7",
+    "MXN/USD_lag_14",
+    "MXN/USD_roll_mean_7",
+    "MXN/USD_roll_std_7",
+    "MXN/USD_ret_1",
+    "MXN/USD_ret_3",
+    "MXN/USD_ret_7",
+    "MXN/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

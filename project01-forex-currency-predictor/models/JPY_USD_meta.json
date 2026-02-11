@@ -1,0 +1,31 @@
+{
+  "currency": "JPY/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.050257351246223436,
+    "RMSE": 0.06337934905857505,
+    "MAPE": 0.04614927896562123
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "JPY/USD_lag_1",
+    "JPY/USD_lag_2",
+    "JPY/USD_lag_3",
+    "JPY/USD_lag_5",
+    "JPY/USD_lag_7",
+    "JPY/USD_lag_14",
+    "JPY/USD_roll_mean_7",
+    "JPY/USD_roll_std_7",
+    "JPY/USD_ret_1",
+    "JPY/USD_ret_3",
+    "JPY/USD_ret_7",
+    "JPY/USD_mom_5",
+    "EUR/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

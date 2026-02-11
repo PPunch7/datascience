@@ -1,0 +1,32 @@
+{
+  "currency": "INR/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.06410859150470169,
+    "RMSE": 0.0843477223196826,
+    "MAPE": 0.09000756339224047
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "INR/USD_lag_1",
+    "INR/USD_lag_2",
+    "INR/USD_lag_3",
+    "INR/USD_lag_5",
+    "INR/USD_lag_7",
+    "INR/USD_lag_14",
+    "INR/USD_roll_mean_7",
+    "INR/USD_roll_std_7",
+    "INR/USD_ret_1",
+    "INR/USD_ret_3",
+    "INR/USD_ret_7",
+    "INR/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

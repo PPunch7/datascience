@@ -1,0 +1,32 @@
+{
+  "currency": "BRL/USD",
+  "best_model": "BASELINE",
+  "metrics": {
+    "model": "BASELINE",
+    "MAE": 0.01917166666666669,
+    "RMSE": 0.025595933921881694,
+    "MAPE": 0.467165548350139
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "BRL/USD_lag_1",
+    "BRL/USD_lag_2",
+    "BRL/USD_lag_3",
+    "BRL/USD_lag_5",
+    "BRL/USD_lag_7",
+    "BRL/USD_lag_14",
+    "BRL/USD_roll_mean_7",
+    "BRL/USD_roll_std_7",
+    "BRL/USD_ret_1",
+    "BRL/USD_ret_3",
+    "BRL/USD_ret_7",
+    "BRL/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "currency": "HKD/USD",
+  "best_model": "XGBOOST",
+  "metrics": {
+    "model": "XGBOOST",
+    "MAE": 0.0007456886291503502,
+    "RMSE": 0.0010259523954146833,
+    "MAPE": 0.009538243996671842
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "HKD/USD_lag_1",
+    "HKD/USD_lag_2",
+    "HKD/USD_lag_3",
+    "HKD/USD_lag_5",
+    "HKD/USD_lag_7",
+    "HKD/USD_lag_14",
+    "HKD/USD_roll_mean_7",
+    "HKD/USD_roll_std_7",
+    "HKD/USD_ret_1",
+    "HKD/USD_ret_3",
+    "HKD/USD_ret_7",
+    "HKD/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

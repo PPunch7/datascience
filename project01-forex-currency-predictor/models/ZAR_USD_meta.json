@@ -1,0 +1,32 @@
+{
+  "currency": "ZAR/USD",
+  "best_model": "XGBOOST",
+  "metrics": {
+    "model": "XGBOOST",
+    "MAE": 0.02907750282287595,
+    "RMSE": 0.03625217489948745,
+    "MAPE": 0.19750367858628357
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "ZAR/USD_lag_1",
+    "ZAR/USD_lag_2",
+    "ZAR/USD_lag_3",
+    "ZAR/USD_lag_5",
+    "ZAR/USD_lag_7",
+    "ZAR/USD_lag_14",
+    "ZAR/USD_roll_mean_7",
+    "ZAR/USD_roll_std_7",
+    "ZAR/USD_ret_1",
+    "ZAR/USD_ret_3",
+    "ZAR/USD_ret_7",
+    "ZAR/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

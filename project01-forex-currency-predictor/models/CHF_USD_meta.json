@@ -1,0 +1,32 @@
+{
+  "currency": "CHF/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.0005379203125260875,
+    "RMSE": 0.0006767753237970223,
+    "MAPE": 0.054382641487166414
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "CHF/USD_lag_1",
+    "CHF/USD_lag_2",
+    "CHF/USD_lag_3",
+    "CHF/USD_lag_5",
+    "CHF/USD_lag_7",
+    "CHF/USD_lag_14",
+    "CHF/USD_roll_mean_7",
+    "CHF/USD_roll_std_7",
+    "CHF/USD_ret_1",
+    "CHF/USD_ret_3",
+    "CHF/USD_ret_7",
+    "CHF/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

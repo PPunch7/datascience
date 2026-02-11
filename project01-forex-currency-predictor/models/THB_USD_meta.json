@@ -1,0 +1,32 @@
+{
+  "currency": "THB/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.019076474949568656,
+    "RMSE": 0.024744198578927918,
+    "MAPE": 0.06313222923159709
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "THB/USD_lag_1",
+    "THB/USD_lag_2",
+    "THB/USD_lag_3",
+    "THB/USD_lag_5",
+    "THB/USD_lag_7",
+    "THB/USD_lag_14",
+    "THB/USD_roll_mean_7",
+    "THB/USD_roll_std_7",
+    "THB/USD_ret_1",
+    "THB/USD_ret_3",
+    "THB/USD_ret_7",
+    "THB/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

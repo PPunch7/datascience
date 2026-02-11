@@ -1,0 +1,32 @@
+{
+  "currency": "SEK/USD",
+  "best_model": "XGBOOST",
+  "metrics": {
+    "model": "XGBOOST",
+    "MAE": 0.011370820617675826,
+    "RMSE": 0.014623302844919915,
+    "MAPE": 0.11810619223617323
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "SEK/USD_lag_1",
+    "SEK/USD_lag_2",
+    "SEK/USD_lag_3",
+    "SEK/USD_lag_5",
+    "SEK/USD_lag_7",
+    "SEK/USD_lag_14",
+    "SEK/USD_roll_mean_7",
+    "SEK/USD_roll_std_7",
+    "SEK/USD_ret_1",
+    "SEK/USD_ret_3",
+    "SEK/USD_ret_7",
+    "SEK/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

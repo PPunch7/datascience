@@ -1,0 +1,31 @@
+{
+  "currency": "GBP/USD",
+  "best_model": "XGBOOST",
+  "metrics": {
+    "model": "XGBOOST",
+    "MAE": 0.0008163416608174656,
+    "RMSE": 0.0013496913358129433,
+    "MAPE": 0.10510063010876793
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "GBP/USD_lag_1",
+    "GBP/USD_lag_2",
+    "GBP/USD_lag_3",
+    "GBP/USD_lag_5",
+    "GBP/USD_lag_7",
+    "GBP/USD_lag_14",
+    "GBP/USD_roll_mean_7",
+    "GBP/USD_roll_std_7",
+    "GBP/USD_ret_1",
+    "GBP/USD_ret_3",
+    "GBP/USD_ret_7",
+    "GBP/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

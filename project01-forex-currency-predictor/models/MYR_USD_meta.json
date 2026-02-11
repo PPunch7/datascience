@@ -1,0 +1,32 @@
+{
+  "currency": "MYR/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.0016409124283996324,
+    "RMSE": 0.0020116634416463847,
+    "MAPE": 0.03942508293118489
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "MYR/USD_lag_1",
+    "MYR/USD_lag_2",
+    "MYR/USD_lag_3",
+    "MYR/USD_lag_5",
+    "MYR/USD_lag_7",
+    "MYR/USD_lag_14",
+    "MYR/USD_roll_mean_7",
+    "MYR/USD_roll_std_7",
+    "MYR/USD_ret_1",
+    "MYR/USD_ret_3",
+    "MYR/USD_ret_7",
+    "MYR/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

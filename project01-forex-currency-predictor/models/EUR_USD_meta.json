@@ -1,0 +1,31 @@
+{
+  "currency": "EUR/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.0007727829144182556,
+    "RMSE": 0.0009446613889361106,
+    "MAPE": 0.08565886842988013
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "EUR/USD_lag_1",
+    "EUR/USD_lag_2",
+    "EUR/USD_lag_3",
+    "EUR/USD_lag_5",
+    "EUR/USD_lag_7",
+    "EUR/USD_lag_14",
+    "EUR/USD_roll_mean_7",
+    "EUR/USD_roll_std_7",
+    "EUR/USD_ret_1",
+    "EUR/USD_ret_3",
+    "EUR/USD_ret_7",
+    "EUR/USD_mom_5",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}

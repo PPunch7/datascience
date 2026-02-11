@@ -1,0 +1,32 @@
+{
+  "currency": "AUD/USD",
+  "best_model": "LIGHTGBM",
+  "metrics": {
+    "model": "LIGHTGBM",
+    "MAE": 0.0019411473474066133,
+    "RMSE": 0.0024713029277437246,
+    "MAPE": 0.13289595229699622
+  },
+  "feature_cols": [
+    "dow",
+    "month",
+    "dow_sin",
+    "dow_cos",
+    "AUD/USD_lag_1",
+    "AUD/USD_lag_2",
+    "AUD/USD_lag_3",
+    "AUD/USD_lag_5",
+    "AUD/USD_lag_7",
+    "AUD/USD_lag_14",
+    "AUD/USD_roll_mean_7",
+    "AUD/USD_roll_std_7",
+    "AUD/USD_ret_1",
+    "AUD/USD_ret_3",
+    "AUD/USD_ret_7",
+    "AUD/USD_mom_5",
+    "EUR/USD_ret_1",
+    "JPY/USD_ret_1",
+    "GBP/USD_ret_1",
+    "CNY/USD_ret_1"
+  ]
+}
